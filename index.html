@@ -5,16 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Invitación de Julieta</title>
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3621/3621435.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <style>
+
+  :root {
+  --rosa: #ec407a;
+  --verde: #43a047;
+  --rojo: #d32f2f;
+  --amarillo: #ffca28;
+  --azul: #1976d2;
+}
+
+
     body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fff6f9;
-      color: #333;
+  background-color: #fff8e1;
+   /*background-image: url('papel_picado.jpg'); /* papel picado en PNG transparente */
+  background-size: contain;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4e342e;
     }
 
     header {
-      background-color: #f48fb1;
+      background-color: #ec407a; /* Rosa mexicano */
       color: white;
       padding: 1rem;
       display: flex;
@@ -26,8 +38,8 @@
     }
 
     .logo {
-      font-size: 1.2rem;
-      font-weight: bold;
+     font-family: 'Pacifico', cursive;
+     font-size: 1.8rem;
     }
 
     .menu-toggle {
@@ -41,14 +53,15 @@
     nav {
       display: none;
       flex-direction: column;
-      background-color: #fce4ec;
+      background-color: #ffe082;
     }
 
     nav a {
       padding: 1rem;
       text-decoration: none;
-      color: #c2185b;
+      color: #bf360c;
       border-top: 1px solid #f8bbd0;
+      font-weight: bold;
     }
 
     nav a:hover {
@@ -59,6 +72,8 @@
       text-align: center;
       background-color: #ffeef3;
       padding: 2rem 1rem;
+      background-image: url('papel_picado_julieta.jpg'); /* papel picado en PNG transparente */
+ 
     }
 
     .hero img {
@@ -66,13 +81,12 @@
       height: 150px;
       object-fit: cover;
       border-radius: 50%;
-      border: 4px solid #f48fb1;
     }
 
     .hero h1 {
       margin-top: 1rem;
       font-size: 2rem;
-      color: #d81b60;
+      color: #055823;
     }
 
     .hero p {
@@ -203,35 +217,66 @@
   </header>
 
   <nav id="menu">
+    <a href="#" onclick="showSection('invite')">📍 Invite</a>
     <a href="#" onclick="showSection('ubicacion')">📍 Ubicación</a>
     <a href="#" onclick="showSection('misa')">🙏 Misa</a>
-    <a href="#" onclick="showSection('regalos')">🎁 Mesa de regalos</a>
   </nav>
 
   <div class="hero">
     <div class="carousel-circle" onclick="openGallery()">
         <div class="slides-circle">
-        <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosninas_blusas-teen-nina_0625.jpg" alt="Foto 1">
-        <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosNinas_weekend_0325.jpg" alt="Foto 2">
-        <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosninas_vestido_0625.jpg" alt="Foto 3">
+        <img src="juli1.jpg" alt="Foto 1">
+        <img src="juli2.jpg" alt="Foto 2">
+        <img src="juli3.jpg" alt="Foto 3">
+        <img src="juli4.jpg" alt="Foto 4">
     </div>
    </div>
 
-    <h1>Estás Invitado</h1>
-    <p>Al bautizo de nuestra pequeña Julieta</p>
+   <h1>BAUTIZO</h1>
+  </br>
+  </br>
+  </br>
+  </br>
   </div>
 
  <div id="gallery-modal" class="modal">
   <span class="close" onclick="closeGallery()">&times;</span>
   <div class="modal-content">
-    <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosninas_blusas-teen-nina_0625.jpg" alt="Foto 1">
-    <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosNinas_weekend_0325.jpg" alt="Foto 2">
-    <img src="https://assets.suburbia.com.mx/assets/digital/landings/Infantiles/2025/blp_ninosninas_vestido_0625.jpg" alt="Foto 3">
+        <img src="juli1.jpg" alt="Foto 1">
+        <img src="juli2.jpg" alt="Foto 2">
+        <img src="juli3.jpg" alt="Foto 3">
+        <img src="juli4.jpg" alt="Foto 4">
   </div>
 </div>
 
   <div class="content">
-    <section id="ubicacion" class="active">
+    <section id="invite" class="active">
+      Con el corazón lleno de alegría,<br>
+      Noemi Kareli y Armin Luna<br>
+      te invitan a celebrar el Bautizo de su hija,<br>
+      🌸 Julieta 🌸<br><br>
+      📖 "Julieta, es el diminutivo de Julia, un nombre de origen romano.
+       Proviene de la antigua familia romana "Iulius" o "Julia", 
+       cuyos miembros afirmaban ser descendientes del dios Júpiter"
+      <br><br>
+      La ceremonia religiosa será el<br>
+      📅 6 de septiembre de 2015, a las 11:00 am,<br>
+      en la iglesia [nombre de la iglesia],<br>
+      📍 [dirección].
+      <br><br>
+      Nos sentimos muy bendecidos de contar con<br>
+      👼 Jessica y Julio Garcia <br>
+      como sus queridos padrinos.
+      <br><br>
+      🎊 Al terminar, la fiesta sigue con sabor a México:<br>
+      comida rica, música, y alegría para celebrar<br>
+      en el Salon Santana,<br>
+      📍 [dirección de la fiesta o salón].
+      <br><br>
+      ¡No faltes! Tu compañía hará este día aún más especial.
+    </section>
+
+    <section id="ubicacion">
       <h2>📍 Ubicación</h2>
       <p>Primera Cda. de los Pinos 17, San Miguel Topilejo</p>
       <p>Tlalpan, 14500 San Miguel Topilejo, CDMX</p>
@@ -243,21 +288,12 @@
     <section id="misa">
       <h2>🙏 Misa</h2>
       <p>Parroquia San Miguel Arcángel</p>
-      <p>Domingo 14 de julio a las 12:00 p.m.</p>
-    </section>
-
-    <section id="regalos">
-      <h2>🎁 Mesa de regalos</h2>
-      <p>Tu presencia es nuestro mejor regalo, pero si deseas un obsequio, aquí puedes consultar:</p>
-      <ul>
-        <li><a href="https://www.amazon.com.mx" target="_blank">Mesa en Amazon</a></li>
-        <li><a href="https://www.liverpool.com.mx" target="_blank">Mesa en Liverpool</a></li>
-      </ul>
+      <p>Sabado 6 de septiembre a las 11:00 a.m.</p>
     </section>
   </div>
 
   <footer>
-    Con cariño, Familia Ramírez López 💕
+    Con cariño, familia Luna Avila 💕
   </footer>
 
   <script>
@@ -279,7 +315,7 @@
   let indexCircle = 0;
 
   function nextSlideCircle() {
-    indexCircle = (indexCircle + 1) % 3;
+    indexCircle = (indexCircle + 1) % 4;
     slidesCircle.style.transform = `translateX(-${indexCircle * 150}px)`;
   }
 
