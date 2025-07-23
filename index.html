@@ -2,6 +2,10 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
+  <meta property="og:image" content="https://armin-moon.github.io/juli3.jpg" />
+  <meta property="og:title" content="Invitación de Julieta" />
+  <meta property="og:description" content="¡Te invitamos al bautizo de Julieta!"/>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Invitación de Julieta</title>
   <link rel="icon" href="https://armin-moon.github.io./juli3.jpg" />
@@ -231,6 +235,7 @@
         <img src="juli2.jpg" alt="Foto 2">
         <img src="juli3.jpg" alt="Foto 3">
         <img src="juli4.jpg" alt="Foto 4">
+        <img src="juli5.jpg" alt="Foto 5">
     </div>
    </div>
 
@@ -243,17 +248,18 @@
         <img src="juli2.jpg" alt="Foto 2">
         <img src="juli3.jpg" alt="Foto 3">
         <img src="juli4.jpg" alt="Foto 4">
+        <img src="juli5.jpg" alt="Foto 5">
   </div>
 </div>
 
   <div class="content">
-    <section id="invite" class="active">
+    <section id="invite" class="active" style="text-align: center;">
       Con el corazón lleno de alegría,<br>
       Noemi Kareli y Armin Luna<br>
       te invitan a celebrar el Bautizo de su hija,<br>
       🌸 Julieta 🌸<br><br>
-      📖 "Julieta, es el diminutivo de Julia, un nombre de origen romano.
-       Proviene de la antigua familia romana "Iulius" o "Julia", 
+      📖 "Julieta, es el diminutivo de Julia, un nombre de origen romano.<br>
+       Proviene de la antigua familia romana "Iulius" o "Julia", <br>
        cuyos miembros afirmaban ser descendientes del dios Júpiter"
       <br><br>
       La ceremonia religiosa será el<br>
@@ -313,7 +319,7 @@
   let indexCircle = 0;
 
   function nextSlideCircle() {
-    indexCircle = (indexCircle + 1) % 4;
+    indexCircle = (indexCircle + 1) % 5;
     slidesCircle.style.transform = `translateX(-${indexCircle * 150}px)`;
   }
 
