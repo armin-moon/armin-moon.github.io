@@ -206,6 +206,13 @@
   cursor: pointer;
 }
 
+.img-responsive-center {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.95); }
   to   { opacity: 1; transform: scale(1); }
@@ -224,7 +231,7 @@
   <nav id="menu">
     <a href="#" onclick="showSection('invite')">📅 Invite</a>
     <a href="#" onclick="showSection('ubicacion')">📍 Ubicación</a>
-    <a href="#" onclick="showSection('misa')">⛪ Misa</a>
+    <a href="#" onclick="showSection('misa')">⛪ Ritual del Bautismo</a>
   </nav>
 
   <div class="hero">
@@ -255,10 +262,10 @@
   <div class="content">
     <section id="invite" class="active" style="text-align: center;">
       Con el corazón lleno de alegría,<br>
-      Noemi Kareli y Armin Luna<br>
+      Noemi Avila Gomez y Armin Luna Morales<br>
       te invitan a celebrar el Bautizo de su hija,<br>
       🌸 Julieta 🌸<br><br>
-      📖 "Julieta, es el diminutivo de Julia, un nombre de origen romano.<br>
+      📖 "Julieta, que proviene Julia, un nombre de origen romano.<br>
        Proviene de la antigua familia romana "Iulius" o "Julia", <br>
        cuyos miembros afirmaban ser descendientes del dios Júpiter"
       <br><br>
@@ -267,11 +274,11 @@
       en la iglesia ⛪  <a href="#" onclick="showSection('misa')">La Esperanza de María</a>,<br>
       <br><br>
       Nos sentimos muy bendecidos de contar con<br>
-      👼 Jessica y Julio Garcia <br>
+      👼 Yessica Lucero López Bruno y Julio César García Pérez <br>
       como sus queridos padrinos.
       <br><br>
-      🎊 Al terminar, la fiesta sigue con sabor a México:<br>
-      comida rica, música, y alegría para celebrar<br>
+      🎊 Al terminar la ceremonia, la fiesta sigue con sabor a México:<br>
+      comida rica y música. Todo con tematica Mexicana<br>
       en <a href="#" onclick="showSection('ubicacion')">El Castillo de Santana</a>,<br>
       <br><br>
       ¡No faltes! Tu compañía hará este día aún más especial.
@@ -287,12 +294,13 @@
     </section>
 
     <section id="misa">
-      <h2>⛪ Misa</h2>
-      <p>Parroquia de La Esperanza de María en la Resurrección del Señor</p>
+      <h2>⛪ Ritual del Bautismo</h2>
+      <p>Parroquia de La Esperanza de María en la Resurrección del Señor. "La Paloma"</p>
       <p>C. Alborada 430, Parques del Pedregal, Tlalpan, 14010 Ciudad de México, CDMX</p>
       <iframe class="map-embed"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.5625970928854!2d-99.1933944!3d19.301378600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdffd9d9afd785%3A0x3e2d017c1cb488c6!2sParroquia%20de%20La%20Esperanza%20de%20Mar%C3%ADa%20en%20la%20Resurrecci%C3%B3n%20del%20Se%C3%B1or!5e0!3m2!1ses!2smx!4v1752731923128!5m2!1ses!2smx">
       </iframe>  
+      <img src="capilla.png" alt="La Paloma" class="img-responsive-center" >
     </section>
   </div>
 
