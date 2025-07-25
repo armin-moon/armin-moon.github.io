@@ -179,18 +179,22 @@
   position: fixed;
   z-index: 9999;
   left: 0; top: 0;
-  width: 100%; height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0,0,0,0.85);
   justify-content: center;
   align-items: center;
   flex-direction: column;
   overflow-y: auto;
   padding: 1rem;
+  box-sizing: border-box;
 }
 
 .modal-content img {
-  max-width: 90%;
+  max-width: 90vw;
   max-height: 80vh;
+  width: auto;
+  height: auto;
   margin: 1rem 0;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
@@ -265,13 +269,13 @@
       Noemi Avila Gomez y Armin Luna Morales<br>
       te invitan a celebrar el Bautizo de su hija,<br>
       🌸 Julieta 🌸<br><br>
-      📖 "Julieta, que proviene Julia, un nombre de origen romano.<br>
+      📖 "Julieta, que proviene de Julia, un nombre de origen romano.<br><br>
        Proviene de la antigua familia romana "Iulius" o "Julia", <br>
        cuyos miembros afirmaban ser descendientes del dios Júpiter"
       <br><br>
       La ceremonia religiosa será el<br>
-      📅 6 de septiembre de 2015, a las 11:00 am,<br>
-      en la iglesia ⛪  <a href="#" onclick="showSection('misa')">La Esperanza de María</a>,<br>
+      📅 6 de septiembre del 2015, a las 11:00 am,<br>
+      en la parroquia ⛪  <a href="#" onclick="showSection('misa')">La Esperanza de María</a>,<br>
       <br><br>
       Nos sentimos muy bendecidos de contar con<br>
       👼 Yessica Lucero López Bruno y Julio César García Pérez <br>
